@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(62, 62, 62);
+    border-bottom:3px solid #59fd87;
+}
+.brand-logo{
+  h1{
+    font-size:40px;
+  }
+  color: #fdfdfd;
+  text-decoration: none;
+}
+.brand-logo:hover{
+  color: #59fd87;
+}
+.cart-icon{
+    font-size: 35px;
+    color: #fdfdfd;  
+}
+.cart-icon:hover{
+    color: #59fd87;
+}

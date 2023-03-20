@@ -1,0 +1,32 @@
+.products{
+    .product-card{
+      color: #343434;
+      .car{
+        width:400px;
+        height:400px;
+        padding:45px 30px;
+        width: 100%;
+        background-color:transparent;
+        .product-image{
+          max-width:360px;
+          height:300px;
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+      .product-name{
+        font-weight: 600;
+      }
+      .product-description{
+        font-size: 0.95rem;
+        text-align: left;
+        height: 200px;
+        margin-left:25px;
+      }
+      // .product-cart-quantity{
+      //   margin: 0;
+      //   padding: 1px 10px;
+      //   background-color: #cccccc;
+      // }
+    }
+  }

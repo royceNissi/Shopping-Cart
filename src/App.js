@@ -1,4 +1,4 @@
-import './App.css';
+import './scss/main.scss';
 import Index from './components';
 export default function App() {
   return (
@@ -7,4 +7,3 @@ export default function App() {
     </div>
   );
 }
-

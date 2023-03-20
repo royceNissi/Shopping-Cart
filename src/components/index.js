@@ -3,6 +3,7 @@ import Menu from './Menu';
 import Products from './Products';
 import Cart from './Cart';
 import ShopContextProvider from './ShopContext';
+import Checkout from './Checkout';
 export default function Index(){
     return(
       <div>
@@ -12,6 +13,7 @@ export default function Index(){
             <Routes>
               <Route path='/' element={<Products />}/>
               <Route path = '/cart'element={<Cart />}/>
+              <Route path='/checkout' element={<Checkout/>}/>
             </Routes>
           </Router>
         </ShopContextProvider>

@@ -8,17 +8,16 @@ import {Link} from 'react-router-dom'
 export default function Menu() {
   return (
     <>
-      <Navbar expand="sm" sticky="top" variant='light' className="bg-teal">
+      <Navbar expand="sm" sticky="top" variant='light' className="navbar">
         <Container>
-        <Link style={{textDecoration:"none"}} className='text-black' to='/'>
-          <Navbar.Brand>ShopMe</Navbar.Brand>
+        <Link className='brand-logo' to='/'>
+          <h1>
+            ShopMe
+          </h1>
         </Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto navbar-right">
-              <Link className='text-black' to='/Cart'><FaShoppingCart /></Link>
-            </Nav>
-          </Navbar.Collapse>
+        <Nav className="ms-auto navbar-right">
+          <Link className='cart-icon' to='/Cart'><FaShoppingCart /></Link>
+        </Nav>
         </Container>
       </Navbar>
     </>
